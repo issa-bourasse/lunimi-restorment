@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { ChefHat, Clock, Users, Star, Camera, Wine, Utensils, Award } from 'lucide-react'
 import Navigation from '@/components/layout/Navigation'
 import Footer from '@/components/layout/Footer'
@@ -133,7 +134,7 @@ const ChefsTablePage = () => {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-serif font-bold text-white mb-6">
-            Chef's
+            Chef&apos;s
             <span className="text-gradient-gold block">Table</span>
           </h1>
           
@@ -239,9 +240,11 @@ const ChefsTablePage = () => {
               <div key={index} className="glass-card p-8 rounded-2xl hover:scale-105 transition-all duration-500">
                 <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6">
                   <div className="relative">
-                    <img
+                    <Image
                       src={chef.image}
                       alt={chef.name}
+                      width={128}
+                      height={128}
                       className="w-32 h-32 rounded-full object-cover border-4 border-electric-gold"
                     />
                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 glass-card px-3 py-1 text-sm text-electric-gold font-semibold">
@@ -282,7 +285,7 @@ const ChefsTablePage = () => {
               <span className="text-gradient-gold block">Journey</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              A glimpse into the culinary techniques and artistry you'll experience
+              A glimpse into the culinary techniques and artistry you&apos;ll experience
             </p>
           </div>
 
@@ -322,7 +325,7 @@ const ChefsTablePage = () => {
               <span className="text-gradient-coral block">Seat</span>
             </h2>
             <p className="text-lg text-gray-300">
-              Chef's table experiences are available Wednesday through Saturday by reservation only
+              Chef&apos;s table experiences are available Wednesday through Saturday by reservation only
             </p>
           </div>
 
@@ -421,14 +424,14 @@ const ChefsTablePage = () => {
           {/* Contact Info */}
           <div className="mt-12 text-center">
             <div className="glass-card p-6 inline-block">
-              <h3 className="text-xl font-semibold text-white mb-2">Questions about Chef's Table?</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Questions about Chef&apos;s Table?</h3>
               <p className="text-gray-300 mb-4">Our culinary concierge is here to help</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:555-123-4567" className="glass-button px-6 py-2 text-white font-semibold hover:text-midnight transition-all duration-300">
                   Call (555) 123-4567
                 </a>
                 <a href="mailto:chefstable@lumina-restaurant.com" className="glass-card px-6 py-2 text-white font-semibold hover:text-electric-gold transition-all duration-300">
-                  Email Chef's Table
+                  Email Chef&apos;s Table
                 </a>
               </div>
             </div>

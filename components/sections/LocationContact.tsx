@@ -141,7 +141,7 @@ const LocationContact = () => {
 
               <div className="mt-6 p-4 bg-glass-white rounded-lg">
                 <p className="text-sm text-gray-300">
-                  <span className="font-semibold text-electric-gold">Chef's Table:</span> Available Wednesday - Saturday by special reservation only
+                  <span className="font-semibold text-electric-gold">Chef&apos;s Table:</span> Available Wednesday - Saturday by special reservation only
                 </p>
               </div>
             </div>

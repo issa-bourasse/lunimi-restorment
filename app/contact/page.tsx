@@ -121,7 +121,7 @@ const ContactPage = () => {
           </h1>
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            We're here to make your dining experience extraordinary. Reach out to us for reservations, 
+            We&apos;re here to make your dining experience extraordinary. Reach out to us for reservations,
             private events, or any questions about our culinary journey.
           </p>
         </div>
@@ -172,7 +172,7 @@ const ContactPage = () => {
                   Send us a Message
                 </h2>
                 <p className="text-gray-300">
-                  Fill out the form below and we'll get back to you as soon as possible
+                  Fill out the form below and we&apos;ll get back to you as soon as possible
                 </p>
               </div>
 
@@ -335,7 +335,7 @@ const ContactPage = () => {
 
                 <div className="mt-6 p-4 bg-glass-white rounded-lg">
                   <p className="text-sm text-gray-300">
-                    <span className="font-semibold text-electric-gold">Chef's Table:</span> Available Wednesday - Saturday by special reservation only
+                    <span className="font-semibold text-electric-gold">Chef&apos;s Table:</span> Available Wednesday - Saturday by special reservation only
                   </p>
                 </div>
               </div>

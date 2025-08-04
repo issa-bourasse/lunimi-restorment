@@ -288,7 +288,7 @@ const MenuPage = () => {
               <div className="glass-card p-12 max-w-2xl mx-auto">
                 <h3 className="text-3xl font-serif font-bold text-white mb-4">Coming Soon</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  We're crafting something extraordinary for this section. 
+                  We&apos;re crafting something extraordinary for this section.
                   Stay tuned for our latest culinary innovations.
                 </p>
               </div>
@@ -301,9 +301,9 @@ const MenuPage = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="glass-card p-8 text-center">
-            <div className="text-6xl text-electric-gold mb-4 font-script">"</div>
+            <div className="text-6xl text-electric-gold mb-4 font-script">&ldquo;</div>
             <p className="text-xl text-gray-300 italic leading-relaxed mb-6">
-              Our menu is not just a collection of dishes—it's a narrative of innovation, 
+              Our menu is not just a collection of dishes—it&apos;s a narrative of innovation,
               tradition, and the relentless pursuit of culinary perfection. Each course 
               tells a story, each flavor creates a memory, and each meal becomes an 
               experience that transcends the ordinary.

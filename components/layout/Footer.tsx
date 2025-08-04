@@ -83,7 +83,7 @@ const Footer = () => {
                   </div>
                   
                   <div className="mt-4 space-y-1">
-                    <p><span className="font-medium">Chef's Table</span></p>
+                    <p><span className="font-medium">Chef&apos;s Table</span></p>
                     <p className="text-sm">By Reservation Only</p>
                     <p className="text-sm">Wednesday - Saturday</p>
                   </div>

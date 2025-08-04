@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import Image from 'next/image'
 import { RotateCcw, ZoomIn, ZoomOut, Eye, Sparkles } from 'lucide-react'
 
 interface Dish3DViewerProps {
@@ -115,9 +116,11 @@ const Dish3DViewer = ({ dish, isActive, onClose }: Dish3DViewerProps) => {
               >
                 {/* Main Dish Image */}
                 <div className="relative">
-                  <img
+                  <Image
                     src={dish.image}
                     alt={dish.name}
+                    width={320}
+                    height={320}
                     className="w-80 h-80 object-cover rounded-full shadow-2xl"
                     style={{
                       filter: 'drop-shadow(0 0 30px rgba(255, 215, 0, 0.5))',

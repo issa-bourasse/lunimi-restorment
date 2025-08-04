@@ -139,7 +139,7 @@ const TableAvailability = () => {
 
         {/* Restaurant Elements */}
         <div className="absolute top-4 left-4 right-4 h-8 bg-gradient-to-r from-electric-gold/20 to-neon-coral/20 rounded-lg flex items-center justify-center">
-          <span className="text-xs text-white font-semibold">Kitchen & Chef's Counter</span>
+          <span className="text-xs text-white font-semibold">Kitchen & Chef&apos;s Counter</span>
         </div>
 
         <div className="absolute bottom-4 left-4 right-4 h-6 bg-gradient-to-r from-ice-blue/20 to-electric-gold/20 rounded-lg flex items-center justify-center">

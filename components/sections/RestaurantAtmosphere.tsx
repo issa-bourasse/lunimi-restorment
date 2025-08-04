@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Camera, Users, Utensils, Wine } from 'lucide-react'
 
 const RestaurantAtmosphere = () => {
@@ -34,25 +35,31 @@ const RestaurantAtmosphere = () => {
           {/* Image Gallery */}
           <div className="space-y-6">
             <div className="glass-card p-4 rounded-2xl">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Restaurant Interior"
+                width={800}
+                height={256}
                 className="w-full h-64 object-cover rounded-xl"
               />
             </div>
             
             <div className="grid grid-cols-2 gap-4">
               <div className="glass-card p-4 rounded-2xl">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
                   alt="Bar Area"
+                  width={400}
+                  height={128}
                   className="w-full h-32 object-cover rounded-xl"
                 />
               </div>
               <div className="glass-card p-4 rounded-2xl">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
                   alt="Private Dining"
+                  width={400}
+                  height={128}
                   className="w-full h-32 object-cover rounded-xl"
                 />
               </div>

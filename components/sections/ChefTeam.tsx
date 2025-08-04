@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { Award, Star, Users } from 'lucide-react'
 
 const ChefTeam = () => {
@@ -56,9 +57,11 @@ const ChefTeam = () => {
           {chefs.map((chef, index) => (
             <div key={index} className="glass-card p-6 rounded-2xl text-center group hover:scale-105 transition-all duration-500">
               <div className="relative mb-6">
-                <img
+                <Image
                   src={chef.image}
                   alt={chef.name}
+                  width={128}
+                  height={128}
                   className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-electric-gold"
                 />
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 glass-card px-3 py-1 text-sm text-electric-gold font-semibold">
@@ -85,10 +88,10 @@ const ChefTeam = () => {
         <div className="glass-card p-8 text-center">
           <h3 className="text-3xl font-serif font-bold text-white mb-6">Our Culinary Philosophy</h3>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            "We believe that cooking is an art form that engages all the senses. Every dish tells a story, 
-            every flavor creates a memory, and every meal becomes an experience that transcends the ordinary. 
-            Our commitment to innovation, sustainability, and excellence drives us to constantly push the 
-            boundaries of what's possible in the culinary world."
+            &ldquo;We believe that cooking is an art form that engages all the senses. Every dish tells a story,
+            every flavor creates a memory, and every meal becomes an experience that transcends the ordinary.
+            Our commitment to innovation, sustainability, and excellence drives us to constantly push the
+            boundaries of what&apos;s possible in the culinary world.&rdquo;
           </p>
           <div className="mt-6 text-electric-gold font-semibold">
             — The LUMINA Culinary Team

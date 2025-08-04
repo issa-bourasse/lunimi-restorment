@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Users, Calendar, Star, Gift, Camera, Music, Utensils, Wine } from 'lucide-react'
 import Navigation from '@/components/layout/Navigation'
 import Footer from '@/components/layout/Footer'
@@ -151,9 +152,11 @@ const EventsPage = () => {
               return (
                 <div key={index} className="glass-card rounded-2xl overflow-hidden hover:scale-105 transition-all duration-500">
                   <div className="relative h-48">
-                    <img
+                    <Image
                       src={event.image}
                       alt={event.title}
+                      width={400}
+                      height={192}
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>

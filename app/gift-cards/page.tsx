@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Gift, Heart, Star, Calendar, CreditCard, Mail, Download } from 'lucide-react'
 import Navigation from '@/components/layout/Navigation'
 import Footer from '@/components/layout/Footer'
@@ -109,7 +110,7 @@ const GiftCardsPage = () => {
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Give the gift of extraordinary culinary experiences. Our gift cards open doors to 
-            molecular gastronomy, chef's table experiences, and unforgettable dining memories.
+            molecular gastronomy, chef&apos;s table experiences, and unforgettable dining memories.
           </p>
         </div>
       </section>
@@ -191,7 +192,7 @@ const GiftCardsPage = () => {
               <span className="text-gradient-blue block">Occasion</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Whether it's a romantic anniversary or corporate appreciation, our gift cards create lasting memories
+              Whether it&apos;s a romantic anniversary or corporate appreciation, our gift cards create lasting memories
             </p>
           </div>
 
@@ -201,9 +202,11 @@ const GiftCardsPage = () => {
               return (
                 <div key={index} className="glass-card rounded-2xl overflow-hidden hover:scale-105 transition-all duration-500">
                   <div className="relative h-48">
-                    <img
+                    <Image
                       src={occasion.image}
                       alt={occasion.title}
+                      width={400}
+                      height={192}
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -418,7 +421,7 @@ const GiftCardsPage = () => {
 
             <div className="glass-card p-6 rounded-2xl">
               <h3 className="text-xl font-semibold text-white mb-3">Can gift cards be used for any experience?</h3>
-              <p className="text-gray-300">Yes, gift cards can be used for dining, chef's table experiences, private events, and any other services at LUMINA.</p>
+              <p className="text-gray-300">Yes, gift cards can be used for dining, chef&apos;s table experiences, private events, and any other services at LUMINA.</p>
             </div>
 
             <div className="glass-card p-6 rounded-2xl">

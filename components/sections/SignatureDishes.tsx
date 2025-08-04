@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { ChefHat, Star, Clock, Eye, Sparkles } from 'lucide-react'
 import Dish3DViewer from '@/components/interactive/Dish3DViewer'
 
@@ -117,9 +118,11 @@ const SignatureDishes = () => {
             >
               {/* Dish Image */}
               <div className="relative overflow-hidden rounded-xl mb-6">
-                <img
+                <Image
                   src={dish.image}
                   alt={dish.name}
+                  width={400}
+                  height={192}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -196,10 +199,10 @@ const SignatureDishes = () => {
         {/* Chef's Note */}
         <div className="mt-16 text-center">
           <div className="glass-card p-8 max-w-4xl mx-auto">
-            <div className="text-6xl text-electric-gold mb-4 font-script">"</div>
+            <div className="text-6xl text-electric-gold mb-4 font-script">&ldquo;</div>
             <p className="text-xl text-gray-300 italic leading-relaxed mb-4">
               Each dish tells a story of innovation, tradition, and the endless pursuit of culinary perfection. 
-              We don't just serve food; we create experiences that linger in your memory long after the last bite.
+              We don&apos;t just serve food; we create experiences that linger in your memory long after the last bite.
             </p>
             <div className="text-electric-gold font-semibold">
               — Executive Chef Marcus Aurelius
