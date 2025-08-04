@@ -71,7 +71,7 @@ const ChefsTablePage = () => {
     {
       name: 'Isabella Chen',
       role: 'Sous Chef',
-      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       awards: ['Rising Star Award', 'Culinary Excellence'],
       specialty: 'Seafood Innovation',
       bio: 'Isabella\'s expertise in seafood preparation and presentation creates unforgettable oceanic experiences.'

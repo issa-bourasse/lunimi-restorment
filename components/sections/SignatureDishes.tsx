@@ -27,7 +27,7 @@ const SignatureDishes = () => {
       name: "Levitating Lobster Cloud",
       description: "Maine lobster suspended in aromatic vapor with citrus caviar and sea foam",
       price: "$165",
-      image: "https://images.unsplash.com/photo-1559847844-d721426d6edc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       chef: "Chef Isabella",
       prepTime: "35 min",
       rating: 5,
